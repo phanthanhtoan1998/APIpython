@@ -1,0 +1,445 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #151515;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #6c6c6c
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		color: #454445;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #068900;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+	
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		overflow: hidden;
+		list-style: none;
+		color: #6c6c6c
+	}
+	
+	ul.style1 li
+	{
+		overflow: hidden;
+		display: block;
+		padding: 2.80em 0em;
+		border-top: 1px solid #D1CFCE;
+	}
+	
+	ul.style1 li:first-child
+	{
+		padding-top: 0;
+		border-top: none;
+	}
+	
+	ul.style1 .image-left
+	{
+		margin-bottom: 0;
+	}
+	
+	ul.style1 h3
+	{
+		padding: 1.2em 0em 1em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #454445;
+	}
+	
+	ul.style1 a
+	{
+		text-decoration: none;
+		color: #525252;
+	}
+
+	ul.style1 a:hover
+	{
+		text-decoration: underline;
+		color: #525252;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding-top: 1em;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 2.5em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		border-radius: 35px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2.8em;
+		color: #323232;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #068900;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+	#header-wrapper
+	{
+	}
+
+	#header
+	{
+		position: relative;
+		height: 150px;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 3em;
+		left: 0;
+		width: 100%;
+	}
+	
+	#logo h1
+	{
+		display: inline-block;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #FFF;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		right: 0;
+		top: 3.5em;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		margin: 0px 1px;
+		padding: 0em 1.5em;
+		letter-spacing: 0.20em;
+		line-height: 50px;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #068900;
+		color: #FFF;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #068900;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#footer header
+	{
+	}
+	
+	#footer header h2
+	{
+		color: #FFF;
+	}
+	* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+ 
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active .dot:hover {
+  background-color: #717171;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.trang1 .trang1_1 hr{
+    width: 1000px;
+    height: 2px;
+    color: #12345;
+    background-color: #123455;
+    border: none;
+}
+.trang1_2{
+    margin-left: 300px;
+    width: 1000px;
+    background:     #333333;
+}
+.trang1_2 a{
+    margin-left: 300px;
+}
+.trang1_2 a:hover{
+    color: red;
+}
+.trang1_3{
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+article{
+    width: 500px;
+    height: 400px;
+    float: left;
+    padding-right: 8px;
+}
+article p{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+article p{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.trang1 .trang1_1{
+    width: 1000px;
+    margin-left: 300px;
+}
+.snip4 {
+  position: relative;
+  overflow: hidden;/*ẩn khi tràn */
+  margin-left: 30px;
+  min-width: 255px;
+  max-width: 450px;
+  height: 300px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);/*  Gắn một hoặc nhiều đổ bóng vào hộp*/
+}
+.snip4 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip4:hover img,
+.snip4.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+.top2{
+    background: #CCCCCC;
+    margin-left: 300px;
+    width: 1000px;
+}

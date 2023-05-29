@@ -1,0 +1,95 @@
+.container{
+width: 502px;
+
+margin: auto;
+
+border: 1px solid #d3d3d3;
+
+box-shadow: 1px 1px 7px #ccc;
+
+}
+
+.container .title-form{
+
+height: 50px;
+
+background-color: #37a0d0;
+
+line-height: 50px;
+
+color: #fff;
+
+font-size: 20px;
+
+font-weight: bold;
+
+text-indent: 5px;
+
+width: 100%;
+
+text-align: center;
+
+}
+
+.label{
+
+display: inline-block;
+
+color: #737373;
+
+margin: 10px 0 5px 43px;
+
+font-size: 16px;
+
+}
+
+#myform .input{
+
+padding: 5px;
+
+width: 80%;
+
+margin: auto;
+
+display: block;
+
+border: 1px solid #d3d3d3;
+
+height: 20px
+
+}
+
+.error{
+
+color: red;
+
+width: 80%;
+
+margin: auto;
+
+display: block;
+
+}
+
+.registerAccount {
+
+color: #fff;
+
+background-color: #50add8;
+
+border: 1px solid #76afc2;
+
+height: 30px;
+
+margin: auto;
+
+display: block;
+
+margin-bottom: 10px;
+
+margin-top: 10px;
+
+}
+.test {
+padding-left: 500px;
+}
